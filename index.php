@@ -68,49 +68,90 @@
 <div id="news">
 <h2 class="heading">Грязелечение - новая технология</h2>
 <div style="clear: both"><br></div>
-
 <!-- статья -->
 <?php
-for ($i = 0; $i < 8; $++)
-echo '<div class="article">
+for ($i = 0; $i < 8; $i++)
+  echo '
+<div class="article">
 <img src="https://ptsmed.ru/wp-content/uploads/2014/08/8-1024x538.jpg"
   alt="Применение" title="Применение">
   <span>Применение лечебных грязей</span>
 </div>
 ';
-
-
+?>
 <a href="" title="Узнать подробнее">
             <div id="btn">
                 Подробнее
             </div>
         </a>
 
+      </div>
+  </div>
+<aside>
+
+
+
 <!-- курс -->
-<?php
-for ($i = 0; $i < 2; $++)
-echo '<div class="article">
+<div id="course">
+<h2 class="heading">Описание процедуры</h2>
+  <div style="clear: both"><br></div>
+  <?php
+  for ($i = 0; $i < 2; $i++)
+    echo '
+  <div class="article">
 <img src="https://ptsmed.ru/wp-content/uploads/2014/08/ptsnew.jpg"
   alt="Методы" title="Методы">
   <span>Методы грязелечения</span>
+  <span><em>2 способ</em></span>
 </div>
 ';
+?>
+<div style="clear: both"><br></div>
 
-
-<a href="" title="Узнать подробнее">
+<a href="" title="Узнать конкретнее о способах">
             <div id="btn">
-                Подробнее
+                Все способы
             </div>
         </a>
+
 	</div>
  <div id="One_course">
- <h2 class="heading">Что такое грязелечение?</h2>
-	<div style="clear: both"><br></div>
-	<video src="gr.mp4" autoplay controls></video>
+ <h2 class="heading">4 плюса выбрать нас</h2>
+ <div style="clear: both"><dr></div>
+ <img src="img/gryas.png" alt="Медецина" title="Новая технология"> 
 	</div>
 </aside>
+
 <div style="clear: both"><br></div>
-               </div>
+
+        <div id="subscribe">
+        <span>Подпишитесь чтобы быть в курсе всех новостей</span>
+        <div style="clear: both"><br></div>
+
+
+
+
+
+<!-- Twitter -->
+
+<a class="twitter-timeline" data-width="350" data-height="400" href="https://twitter.com/dirt_body">Tweets by dirt_body</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+    <div id="sub_to_project">
+    <span class="heading">Оформить заказ</span>
+    <div style="clear: both"><br></div> 
+    <p>Узнать детальнее как вы можеть оформить заказ, можно просто нажав на кнопку Оформить заказ</p>
+    <a href="" title="Оформить заказ просто">
+            <div id="btn">
+                Оформить заказ
+            </div>
+        </a>
+       <div style="clear: both"><br></div> 
+       <h2 class="heading">Лечебная грязь</h2>
+       <div style="clear: both"><dr></div>
+       <img src="img/tom.png" alt="Медецина" title="Грязь"> 
+  </div>
+</div>
                <footer>
                <div id="site_name">
                <span>BodyDirt</span> - Грязелечение
@@ -122,12 +163,11 @@ echo '<div class="article">
                <a href="" title="Написать письмо">Обратная связь</a>
                </div>
                <div id="rights">
-               <a href="">Все права защищены  &copy; 2017 <?=date ('Y')?></a>
+               <a href="">Все права защищены  &copy; <?=date ('Y')?></a>
                </div>
                <div id="social">
                    <a href="" title="Группа Вк"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                   <a href="" title="Группа Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                   <a href="" title="Мы в Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                      <a href="" title="Мы в Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                    <a href="" title="Мы в Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                    </div> 
             </footer>
