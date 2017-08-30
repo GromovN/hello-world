@@ -151,6 +151,17 @@ for ($i = 0; $i < 8; $i++)
        <div style="clear: both"><dr></div>
        <img src="img/tom.png" alt="Медецина" title="Грязь"> 
   </div>
+
+<div style="clear: both"><br></div> 
+<div id="wed_sites">
+<span>Хотите узнать более подробную информацию? 
+             свяжитесь с меноджерами.</span>
+             <a href="" title="Связь с офисом продажи">
+             <div class="btn">
+                   Офис продаж
+                   </div>
+                   </a>
+
 </div>
                <footer>
                <div id="site_name">
