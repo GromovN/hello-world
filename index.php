@@ -153,15 +153,13 @@ for ($i = 0; $i < 8; $i++)
   </div>
 
 <div style="clear: both"><br></div> 
-<div id="wed_sites">
-<span>Хотите узнать более подробную информацию? 
-             свяжитесь с меноджерами.</span>
-             <a href="" title="Связь с офисом продажи">
-             <div class="btn">
-                   Офис продаж
-                   </div>
-                   </a>
-
+<div id="web_sites">
+<span>Хотите узнать более подробную информацию? свяжитесь с меноджерами.</span>
+             <a href="" title="Звязаться с офисом прадаж">
+            <div id="btn">
+                Звязь
+            </div>
+        </a>
 </div>
                <footer>
                <div id="site_name">
