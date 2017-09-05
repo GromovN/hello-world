@@ -207,7 +207,7 @@ nav a {
 	margin-left: 5%;
 }
 
-nav a:last-child {
+nav a: last-child {
 	margin-right: 20px
 }
 
@@ -364,7 +364,7 @@ footer {
 	background-color: #3e895e; 
 }
 
-@media (max-width: 520px) {
+@media (max-width: 660px) {
 	#site_name {
 		display: none;
 	}

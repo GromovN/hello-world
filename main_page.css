@@ -45,6 +45,13 @@ margin-top: 20px;
 	margin-left: 30%;
 }
 
+@media (max-width: 785px)  {
+	#One_course {
+		width: 120%;
+	}
+
+}
+
 #One_course {
 	float: left;
 	margin-top: 10px;
@@ -54,6 +61,8 @@ margin-top: 20px;
 	width: 80%;
 	float: left;
 }
+
+
 
 .heading {
 	font-weight: lighter;
@@ -65,7 +74,7 @@ margin-top: 20px;
 	padding: 0px 5px;
 }
 
-.heading:first-letter {
+.heading: first-letter {
 	color: #8ed2b7;
 }
 
@@ -145,8 +154,9 @@ margin-top: 20px;
 }
 
 #sub_to_project {
-	float: left;
+	float: right;
 	margin-bottom: 20px;
+	margin-right: 120px;
 }	
 
 #sub_to_project>p {
@@ -158,9 +168,10 @@ margin-top: 20px;
 
 #sub_to_project>a>#btn {
 	background-color: #21a7e1;
-	background-bottom-color: #1999d1;
+	border-bottom-color:  #1999d1;
 	float: left;
 	text-align: center;
+	border-bottom-color: 
 }
 
 #web_sites {
@@ -181,10 +192,11 @@ margin-top: 20px;
 
 #web_sites>a>#btn {
 	position: absolute;
-	margin: 0;
-	top: 80%;
+	margin: 5;
+	top: 60%;
 	left: 50%;
 	margin-right: -50%
-	transform: translate(-50%, -80%);
+	transform: translate(-50%, -60%);
 	font-size: 2em;
 }
+@media 

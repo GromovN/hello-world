@@ -2,10 +2,12 @@
     RewriteEgine on
     RewriteBase /
     RewriteCond %{HTTP_HOST} ^www.bodydirt.com
-    RewriteRule (.*) https://bodydirt.com/$1 [R=301,L]
+    RewriteRule (.*) http://bodydirt.com/$1 [R=301,L]
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
     RewriteRule ^index\.php$ https://bodydirt.com/ [R=301,L]
 </IfModule>
 
 ServerSignature Off
 AddDefaultCharset UTF-8
+
+RewriteRule ^ad?$ ad.php [NC,L]
