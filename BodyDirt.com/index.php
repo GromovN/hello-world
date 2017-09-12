@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>bodydirt - сайт для разработчиков</title>
+	<title>bodydirt - Оборудывание для грязелечения</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
 	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
@@ -119,8 +119,8 @@ for ($i = 0; $i < 8; $i++)
  <h2 class="heading">Коротко о нас</h2>
  <div style="clear: both"><dr></div>
  <video controls autoplay loop>
- <source src="gr.mp4" type="video/mp4">
- <source src="gr.ogg" type="video/ogg">
+ <source src="https://youtu.be/uploads/video.mp4" type="video/mp4">
+ <source src="https://youtu.be/uploads/video.ogg" type="video/ogg">
 </video>
 	</div>
 </aside>
@@ -163,6 +163,7 @@ for ($i = 0; $i < 8; $i++)
                 Связь
             </div>
         </a>
+        </div>
 </div>
                <footer>
                <div id="site_name">
