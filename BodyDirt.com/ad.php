@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>bodydirt - сайт для разработчиков</title>
+	<title>Bodydirt - Заказ оборудывания и грязи</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
 	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
@@ -66,8 +66,36 @@
 
 <div id="main">
 <div id="news">
-<h2 class="heading">Грязелечение - новая технология</h2>
+<h2 class="heading">Оборудывание для грезелечение</h2>
 <div style="clear: both"><br></div>
+
+<div class="block">
+<h1><span>Каталог оборудования для грязелечения.</span></h1>
+<p>
+<br>На нашем сайте Вы можете купить оборудование и материалы для грязелечения. Чтобы купить нагреватель термокомпрессов, грязевые аппликаторы и грязевые термокомпрессы, позвоните по телефону <strong>8 (843) 296-26-92</strong> или напишите на <strong>Bodydirt@mail.ru</strong>, и наши менеджеры проконсультируют Вас по всем вопросам.<br>
+
+<br><i>Оборудование для грязелечения применяется в сочетании с лечебными грязями.</i><br>
+</p>
+</div>
+<?php
+for ($i = 0; $i < 5; $i++)
+  echo '
+<div class="section">
+<img src="https://ptsmed.ru/wp-content/uploads/2017/04/pts123.jpg"
+  alt="Применение" title="Применение">
+  <span>Нагреватель термокомпрессов НТВ-50С</span>
+  <br><i>Объем 50 л на 14 компрессов.</i><br>
+  <a href="" title="Узнать подробнее">
+            <div id="btn">
+                Подробнее
+            </div>
+        </a>
+</div>
+';
+?>
+
+
+
 
       </div>
   </div>

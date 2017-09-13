@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>bodydirt - Оборудывание для грязелечения</title>
+	<title>Bodydirt - Оборудывание для грязелечения</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="aside.css" charset="utf-8">
 	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
 	<meta name="keywords" content="грязевые аппликации, термокомпрессор, санаторий, косметалогия, лечебная грязь">
 	<meta name="viewport" content="width=device-width, intial-scale=1">
