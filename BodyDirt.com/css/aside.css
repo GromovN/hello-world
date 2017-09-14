@@ -98,20 +98,29 @@ margin-top: 20px;
 	#subscribe {
 		width: 100%;
 	}
+}
 
 .block {
-		background-color: #fafafa;
+		background-color: #0c0c0c0c;
         padding: 3%;
         border-radius: 5px;
         width: 88%;
         border: 1px solid silver;
         font-size: 1.1em;
         color: #3e3e3e;
+        font-family: 'Scada', serif;
 	}
 
 .section {
 	background-color: #fff;
+	color: #3e3e3e;
 	padding: 15px;
 	margin-bottom: 10px;
 	border-radius: 10px;
+	font-family: 'Scada', serif;
 }	
+
+ul, ol {
+	width: 90%;
+	margin-left: 5%;
+}
