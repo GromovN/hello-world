@@ -1,0 +1,127 @@
+#main {
+	width: 60%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+aside {
+float: left;
+width: 30%;
+margin-left: 2%;
+margin-top: 20px;	
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+#course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Scada', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+#course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+
+#course>span {
+	float: right;
+	font-weight: bold;
+	color: #8ed2b7;
+}
+
+#course>a>#btn {
+	float: left;
+	margin-left: 30%;
+}
+
+@media (max-width: 785px)  {
+	#One_course {
+		width: 120%;
+	}
+
+}
+
+#One_course {
+	float: left;
+	margin-top: 10px;
+} 
+
+#One_course>img {
+	width: 80%;
+	float: left;
+}
+
+
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Scada', serif;
+	border-bottom: 2px solid #8ed2b7;
+	float: left;
+	color: #4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading: first-letter {
+	color: #8ed2b7;
+}
+
+#news {
+	margin-left: 10%;
+	width: 90%;
+	float: left;
+}
+
+@media (min-width: 911px) {
+	#subscribe {
+		width: 100%;
+	}
+#sub_to_project {
+	width: 25%;
+}
+
+}
+
+@media (max-width: 910px) {
+	#subscribe {
+		width: 100%;
+	}
+}
+
+.block {
+		background-color: #0c0c0c0c;
+        padding: 3%;
+        border-radius: 5px;
+        width: 88%;
+        border: 1px solid silver;
+        font-size: 1.1em;
+        color: #3e3e3e;
+        font-family: 'Scada', serif;
+        float: left;
+	}
+
+.section {
+	background-color: #fff;
+	color: #3e3e3e;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-family: 'Scada', serif;
+}	
+
+ul, ol {
+	width: 90%;
+	margin-left: 5%;
+}
