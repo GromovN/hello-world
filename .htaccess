@@ -2,3 +2,26 @@
   RewriteEngine on
   RewriteRule ^ad?$ ad.php [NC,L]
 </IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^kontakti?$ kontakti.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^texno?$ texno.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^Opisanie?$ Opisanie.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^nas?$ nas.php [NC,L]
+</IfModule>
+
+# Not found
+ErrorDocument 404 /404.php
