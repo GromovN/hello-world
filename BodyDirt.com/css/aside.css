@@ -52,15 +52,6 @@ margin-top: 20px;
 
 }
 
-#One_course {
-	float: left;
-	margin-top: 10px;
-} 
-
-#One_course>img {
-	width: 80%;
-	float: left;
-}
 
 
 
@@ -109,6 +100,7 @@ margin-top: 20px;
         font-size: 1.1em;
         color: #3e3e3e;
         font-family: 'Scada', serif;
+        float: left;
 	}
 
 .section {

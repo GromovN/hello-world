@@ -1,7 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Slab|Scada|Suez+One';
+
 * {
 	margin: 0;
 	padding: 0;
+	outline: none;
 } 
 
 body, html {

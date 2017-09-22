@@ -4,9 +4,9 @@
                </div>
                <div id="clear"></div>
                <div id="footer_menu">
-               <a href="" title="Узнать детальнее про рекламу">Реклама</a>
-               <a href="" title="О нас">О нас</a>
-               <a href="" title="Написать письмо">Обратная связь</a>
+               <a href="/ad" title="Узнать детальнее про рекламу">Реклама</a>
+               <a href="/nas" title="О нас">О нас</a>
+               <a href="/kontakti" title="Написать письмо">Обратная связь</a>
                </div>
                <div id="rights">
                <a href="">Все права защищены  &copy; <?=date ('Y')?></a>
