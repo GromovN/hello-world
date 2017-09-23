@@ -43,7 +43,7 @@
 <div style="clear: both"><br></div> 
 <div id="web_sites">
 <span>Хотите узнать более подробную информацию? свяжитесь с менеджерами.</span>
-             <a href="" title="Звязаться с офисом прадаж">
+             <a href="/kontakti" title="Звязаться с офисом прадаж">
             <div id="btn">
                 Связь
             </div>

@@ -84,11 +84,7 @@ for ($i = 0; $i < 5; $i++)
 ?>
 <div style="clear: both"><br></div>
 
-<a href="" title="Узнать конкретнее о способах">
-            <div id="btn">
-                Все способы
-            </div>
-        </a>
+
 
 	</div>
  <div id="One_course">

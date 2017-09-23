@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>Bodydirt - Обратная связь</title>
+	<title>Bodydirt - Контактная информация</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/aside.css" charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/form.css" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/kont.css" charset="utf-8">
 	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
 	<meta name="keywords" content="грязевые аппликации, термокомпрессор, санаторий, косметалогия, лечебная грязь">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,21 +23,31 @@
    
 <div id="main">
 <div id="news">
-<h2 class="heading">Обратная связь</h2>
+<h2 class="heading">Свяжитесь с нами</h2>
 <div style="clear: both"><br></div>
 
 <div class="block">
-  Чтобы отпрваить нам ваше сообщение, просто заполните форму и отправьте.
+
+  Контактная информация<br>
+
+Адрес:<br>
+420029, Россия, Республика Татарстан, г.Казань, ул.Подлужная, д.52<br>
+
+Email:<br> 
+ptsmed@mail.ru<br>
+
+Телефон:<br> 
++7 (987) 296-26-92<br>
++7 (843) 296-26-92<br>
+
+
+
   <form>
     <div>
-      <input type="text" id="name" placeholder="Ваше имя" onclick="$(this).css ('border-color', '#ccc')">
-      <br> 
       <input type="email" id="email" placeholder="Email..." onclick="$(this).css ('border-color', '#ccc')">
-    </div>
-    <div>
       <textarea id="message" placeholder="Введите ваше сообщение"></textarea>
-    </div>
     <input type="button" id="send" class="btn" value="Отправить" onclick="$(this).css ('border-color', '#ccc')">
+  </div>
   </form>
 </div>
 

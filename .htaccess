@@ -23,5 +23,17 @@
   RewriteRule ^nas?$ nas.php [NC,L]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^gry?$ gry.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^kont?$ kont.php [NC,L]
+</IfModule>
+
+
+
 # Not found
 ErrorDocument 404 /404.php

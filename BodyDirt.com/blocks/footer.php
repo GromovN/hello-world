@@ -13,7 +13,7 @@
                </div>
                <div id="social">
                    <a href="" title="Группа Вк"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                                      <a href="" title="Мы в Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                   <a href="https://twitter.com/dirt_body?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbodydirt.com%2F" title="Мы в Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                    <a href="" title="Мы в Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                    </div> 
             </footer>

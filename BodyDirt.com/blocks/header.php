@@ -27,11 +27,11 @@
             <div id="hideMenu">
             <a href="/texno" title="Узнать о всех новых технологиях">Технология</a>
             <a href="/Opisanie">Описание процедуры</a>
-            <a href="">Грязи</a>
-            <a href="">Контакты</a>
+            <a href="/gry">Грязи</a>
+            <a href="/kont">Контакты</a>
             <a href="/nas">О нас</a>
             </div>
-            <div id="search">
+            <div id="search">  
             <span>Заказать звонок</span>
             <i class="fa fa-phone" aria-hidden="true"></i>
             </div>
@@ -39,8 +39,8 @@
             <div id="mobileMenu">
             <a href="/texno">Технология</a><br>
             <a href="/Opisanie">Описание процедуры</a><br>
-            <a href="">Грязи</a><br>
-            <a href="">Контакты</a> 
+            <a href="/gry">Грязи</a><br>
+            <a href="/kont">Контакты</a> 
             <a href="/nas">O нас</a><br>
             <hr>
             <a href="">Регистрация</a>
