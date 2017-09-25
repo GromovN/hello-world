@@ -10,12 +10,12 @@
     <a href="/kontakti" title="Написать нам письмо">Обратная связь</a>
     </div>
     <div id="reg_auth">
-        <a href="" title="Войти в кабинет пользователя">
+        <a href="/voit" title="Войти в кабинет пользователя">
             <div id="btn">
                 Войти
             </div>
         </a>
-        <a href="" title="Зарегистрироватья на сайте">
+        <a href="/reg" title="Зарегистрироватья на сайте">
             <div id="btn">
                 Регистрация
                 </div>
@@ -43,7 +43,7 @@
             <a href="/kont">Контакты</a> 
             <a href="/nas">O нас</a><br>
             <hr>
-            <a href="">Регистрация</a>
-            <a href="">Войти</a>
+            <a href="/reg">Регистрация</a>
+            <a href="/voit">Войти</a>
             </div>
             </nav>

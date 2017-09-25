@@ -33,7 +33,15 @@
   RewriteRule ^kont?$ kont.php [NC,L]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^voit?$ voit.php [NC,L]
+</IfModule>
 
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^reg?$ reg.php [NC,L]
+</IfModule>
 
 # Not found
 ErrorDocument 404 /404.php
