@@ -1,16 +1,19 @@
 <header>
+
+ 
+
    	<div id="logo">
-   	    <a href="https://bodydirt.com/" title="На главную">
+   	    <a href="http://bodydirt.com/" title="На главную">
    	        <img src="img/logotipo.png" title="bodydirt.com" alt="bodydirt.com">
    	        <span>BodyDirt</span>
    	    </a>
     </div>
     <div id="about">
-    <a href="/ad" title="Узнать детальнее об рекламе">Реклама</a>
+    <a href="/ad" title="Узнать детальнее">Оборудывание</a>
     <a href="/kontakti" title="Написать нам письмо">Обратная связь</a>
     </div>
     <div id="reg_auth">
-        <a href="/voit" title="Войти в кабинет пользователя">
+        <a href="/voit" title="Войти в личный кабинет">
             <div id="btn">
                 Войти
             </div>

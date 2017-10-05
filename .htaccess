@@ -43,5 +43,57 @@
   RewriteRule ^reg?$ reg.php [NC,L]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^histori?$ histori.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^primin?$ primin.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^bol?$ bol.php [NC,L]
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^pokas?$ pokas.php [NC,L]
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^det?$ det.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^minys?$ minys.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^new?$ new.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^prim?$ prim.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^met1?$ met1.php [NC,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^met2?$ met2.php [NC,L]
+</IfModule>
+
 # Not found
 ErrorDocument 404 /404.php

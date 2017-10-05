@@ -62,7 +62,7 @@ hr {
 header {
 	float: left;
 	background-color: #181818;
-	width: 99.4%;
+	width: 99.4%; 
 	padding: 0.3%;
 	border-bottom: 5px solid #73c094;
 	font-family: 'Scada', serif;
@@ -242,7 +242,7 @@ nav a: last-child {
 
 #menuShow {
 	display: inline;
-	font-size: 1.4em;
+	font-size: 1em;
 	margin-left: 20px;
 	float: left;
 	margin-top: 4px;
@@ -276,6 +276,8 @@ nav a: last-child {
 	font-size: 1.4em;
 	margin-right: 10px;
 }
+
+
 
 
 /*конец стилей для шапки сайта */

@@ -5,22 +5,28 @@
 	<title>Bodydirt - Оборудывание для грязелечения</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/shap.css" charset="utf-8">
+  
   	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
 	<meta name="keywords" content="грязевые аппликации, термокомпрессор, санаторий, косметалогия, лечебная грязь">
 	<meta name="viewport" content="width=device-width, intial-scale=1">
 	<link href="img/list.ico" rel="shortcut icon" type="image/x-icon">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+  
 </head>
 <body>
     <div id= "wrapper">
         <div id= "content">
+   
+<?php 
+  require "db.php";
+  ?>
+
    <?php
    require_once "blocks/header.php"
    ?>
 
  <div id="shapp">
-  <img src="http://www.stankopolymer.ru/images/design/bg-2.jpg">
+  <img src="img/frf4.jpg">
 </div>
 
 <div style="clear: both"><br></div>
@@ -32,6 +38,13 @@
 
 
 
+<!-- VK Widget -->
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?147"></script>
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 4, width: "700", height: "400"}, 154127095);
+</script>
 
 <!-- Twitter -->
 
@@ -42,6 +55,7 @@
 
 <div style="clear: both"><br></div> 
 <div id="web_sites">
+
 <span>Хотите узнать более подробную информацию? свяжитесь с менеджерами.</span>
              <a href="/kontakti" title="Звязаться с офисом прадаж">
             <div id="btn">

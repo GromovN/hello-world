@@ -34,7 +34,7 @@
 420029, Россия, Республика Татарстан, г.Казань, ул.Подлужная, д.52<br>
 
 Email:<br> 
-ptsmed@mail.ru<br>
+BodyDirt.com<br>
 
 Телефон:<br> 
 +7 (987) 296-26-92<br>
@@ -61,19 +61,7 @@ ptsmed@mail.ru<br>
 
 
 <div id="course">
-<h2 class="heading">Описание процедуры</h2>
-  <div style="clear: both"><br></div>
-  <?php
-  for ($i = 0; $i < 2; $i++)
-    echo '
-  <div class="article">
-<img src="https://ptsmed.ru/wp-content/uploads/2014/08/ptsnew.jpg"
-  alt="Методы" title="Методы">
-  <span>Методы грязелечения</span>
-  <span><em>2 способ</em></span>
-</div>
-';
-?>
+
 <div style="clear: both"><br></div>
 
 
@@ -102,34 +90,30 @@ ptsmed@mail.ru<br>
 <script>
 $('#send').click (function () {
   var email = $('#email').val ();
-  var name = $('#name').val ();
   var message = $('#message').val ();
   $.ajax({
     url:      'ajax/kontakti.php',
     type:   'POST',
     cache:    false,
-    data:     {'name':name, 'email':email, 'message':message},
+    data:     {'email':email, 'message':message},
     dataType: 'html',
     beforeSend: function () {
       $('#send').attr ("disabled", "disabled");
     },
     success: function(data) {
       if (data == true) {
-        $('#name').val ("");
+       
         $('#email').val ("");
         $('#message').val ("");
         $('#send').text ("Сообщение отправлено");
         $('#email').css ("border-color", "#60fc8c");
-        $('#name').css ("border-color", "#60fc8c");
+        
         $('#message').css ("border-color", "#60fc8c");
       } else {
         if (data == false)        
           alert ("Что-то пошло не так! Сообщение не отправлено");
         else {          
           switch (data) {
-          case "Имя не указано":
-          $('#name').css ("border-color", "#f7b4b4");
-          break;
           case "Сообщение не указано":
           $('#message').css ("border-color", "#f7b4b4");
           break;
@@ -139,8 +123,7 @@ $('#send').click (function () {
           default:
           $('#email').css ("border-color", "#f7b4b4");
           $('#message').css ("border-color", "#f7b4b4");
-          $('#name').css ("border-color", "#f7b4b4");
-          }
+                  }
         }
       }
       $('#send').removeAttr ("disabled");       

@@ -6,10 +6,11 @@
         font-size: 1.1em;
         color: #3e3e3e;
         font-family: 'Scada', serif;
-        float: left;
+        float: center;
 }
 
 ul, ol {
         width: 90%;
         margin-left: 5%;
 }
+

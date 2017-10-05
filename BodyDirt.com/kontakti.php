@@ -51,19 +51,8 @@
 
 
 <div id="course">
-<h2 class="heading">Описание процедуры</h2>
-  <div style="clear: both"><br></div>
-  <?php
-  for ($i = 0; $i < 2; $i++)
-    echo '
-  <div class="article">
-<img src="https://ptsmed.ru/wp-content/uploads/2014/08/ptsnew.jpg"
-  alt="Методы" title="Методы">
-  <span>Методы грязелечения</span>
-  <span><em>2 способ</em></span>
-</div>
-';
-?>
+
+
 <div style="clear: both"><br></div>
 
 
