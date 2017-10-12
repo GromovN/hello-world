@@ -1,0 +1,212 @@
+#main {
+	width: 60%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+aside {
+float: left;
+width: 30%;
+margin-left: 2%;
+margin-top: 20px;	
+}
+
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+#course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Scada', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+#course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+
+#course>span {
+	float: right;
+	font-weight: bold;
+	color: #8ed2b7;
+}
+
+#course>a>#btn {
+	float: left;
+	margin-left: 30%;
+}
+
+@media (max-width: 785px)  {
+	#One_course {
+		width: 120%;
+	}
+
+}
+
+#One_course {
+	float: left;
+	margin-top: 10px;
+} 
+
+#One_course>img {
+	width: 80%;
+	float: left;
+}
+
+
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Scada', serif;
+	border-bottom: 2px solid #8ed2b7;
+	float: left;
+	color: #4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading: first-letter {
+	color: #8ed2b7;
+}
+
+#news {
+	margin-left: 10%;
+	width: 90%;
+	float: left;
+}
+
+.article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+} 
+
+.article>a>img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	height: 100px;
+}
+
+.article>span {
+	font-family: 'Scada', serif;
+	font-size: 1.3em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: #6c6c6c;
+}
+
+#news>a>#btn {
+	margin-bottom: 20px;
+	float: left;
+	margin-left: 10%;
+}
+
+/*Нижняя часть сайта*/
+
+#subscribe {
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#vk_groups {
+	margin: auto;
+	float: center;
+}
+
+#twitter_groups {
+	margin: auto;
+	float: right;
+}
+
+@media (min-width: 911px) {
+	#subscribe {
+		width: 100%;
+	}
+#sub_to_project {
+	width: 25%;
+}
+
+}
+
+@media (max-width: 910px) {
+	#subscribe {
+		width: 100%;
+	}
+
+
+#sub_to_project {
+	width: 80%;
+	margin-left: 10%;
+}
+}
+#subscribe>span {
+	font-family: 'Scada', serif;
+	font-size: 2em;
+	color: #434343; 
+}
+
+#sub_to_project {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 120px;
+}	
+
+#sub_to_project>p {
+	width: 100%;
+	color: #333;
+	font-family: 'Scada', serif;
+	font-size: 1.1em;
+}
+
+#sub_to_project>a>#btn {
+	background-color: #21a7e1;
+	border-bottom-color:  #1999d1;
+	float: left;
+	text-align: center;
+	border-bottom-color: 
+}
+
+#web_sites {
+	width: 98%;
+	border-top: 2px solid #d7d7d7;
+	position: relative;
+	padding: 1%;
+	background-color: #efefef;
+	text-align: center;
+	min-height: 150px;
+}
+
+#web_sites>span {
+	font-family: 'Scada', serif;
+	font-size: 2.5em;
+	color: #434343;
+}
+
+#web_sites>a>#btn {
+	position: absolute;
+	margin: 5;
+	top: 60%;
+	left: 50%;
+	margin-right: -50%
+	transform: translate(-50%, -60%);
+	font-size: 2em;
+}
+

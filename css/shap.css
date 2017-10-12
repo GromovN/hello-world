@@ -1,0 +1,16 @@
+.opi {
+        background-color: #fff;
+        padding: 3%;
+        border-radius: 5px;
+        width: 88%;
+        font-size: 1.1em;
+        color: #3e3e3e;
+        font-family: 'Scada', serif;
+        float: center;
+}
+
+ul, ol {
+        width: 90%;
+        margin-left: 5%;
+}
+

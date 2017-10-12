@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>bodydirt - сайт для разработчиков</title>
+	<title>Bodydirt - Заказ оборудывания и грязи</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/aside.css" charset="utf-8">
 	<meta name="decription" content="Оздоровительные процедуры, грязелечение, косметалогия, омоложение">
 	<meta name="keywords" content="грязевые аппликации, термокомпрессор, санаторий, косметалогия, лечебная грязь">
 	<meta name="viewport" content="width=device-width, intial-scale=1">
@@ -14,77 +15,67 @@
 <body>
     <div id= "wrapper">
         <div id= "content">
-   <header>
-   	<div id="logo">
-   	    <a href="https://bodydirt.com/" title="На главную">
-   	        <img src="img/logotipo.png" title="bodydirt.com" alt="bodydirt.com">
-   	        <span>BodyDirt</span>
-   	    </a>
-    </div>
-    <div id="about">
-    <a href="/ad" title="Узнать детальнее об рекламе">Реклама</a>
-    <a href="" title="Написать нам письмо">Обратная связь</a>
-    </div>
-    <div id="reg_auth">
-        <a href="" title="Войти в кабинет пользователя">
-            <div id="btn">
-                Войти
-            </div>
-        </a>
-        <a href="" title="Зарегистрироватья на сайте">
-            <div id="btn">
-                Регистрация
-                </div>
-                </a>
-                </div> 
-            </header>           
-            <nav>
-            <div id="menuShow"><i class="fa fa-bars" aria-hidden="true"></i></div>
-            <div id="hideMenu">
-            <a href="">Технология</a>
-            <a href="">Описание процедуры</a>
-            <a href="">Оборудывание</a>
-            <a href="">Грязи</a>
-            <a href="">Контакты</a>
-            </div>
-            <div id="search">
-            <span>Заказать звонок</span>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            </div>
-
-            <div id="mobileMenu">
-            <a href="">Технология</a><br>
-            <a href="">Описание процедуры</a><br>
-            <a href="">Оборудывание</a><br>
-            <a href="">Грязи</a><br>
-            <a href="">Контакты</a> 
-            <hr>
-            <a href="">Регистрация</a>
-            <a href="">Войти</a>
-            </div>
-            </nav>
-
+   
+   <?php
+    require_once "blocks/header.php"
+    ?>
+   
 <div id="main">
 <div id="news">
-<h2 class="heading">Грязелечение - новая технология</h2>
+<h2 class="heading">Оборудывание для грезелечение</h2>
 <div style="clear: both"><br></div>
-<!-- статья -->
-<?php
-for ($i = 0; $i < 8; $i++)
-  echo '
-<div class="article">
-<img src="https://ptsmed.ru/wp-content/uploads/2014/08/8-1024x538.jpg"
-  alt="Применение" title="Применение">
-  <span>Применение лечебных грязей</span>
-</div>
-';
-?>
-<a href="" title="Узнать подробнее">
-            <div id="btn">
-                Подробнее
-            </div>
-        </a>
 
+<div class="block">
+<h1><span>Каталог оборудования для грязелечения.</span></h1>
+<p>
+<br>На нашем сайте Вы можете купить оборудование и материалы для грязелечения. Чтобы купить нагреватель термокомпрессов, грязевые аппликаторы и грязевые термокомпрессы, позвоните по телефону <strong>8 (843) 296-26-92</strong> или напишите на <strong>Bodydirt@mail.ru</strong>, и наши менеджеры проконсультируют Вас по всем вопросам.<br>
+
+<br><i>Оборудование для грязелечения применяется в сочетании с лечебными грязями.</i><br>
+</p>
+</div>
+
+<div class="section">
+<img src="https://ptsmed.ru/wp-content/uploads/2017/04/pts123.jpg"
+  alt="Применение" title="Применение">
+  <p><span>Нагреватель термокомпрессов НТВ-50С</span><p>
+    <span>Рабочий объем бака 50 л на 14 термокомпрессов. Вариант исполнения — напольный со столом. Снабжен колесами, два из которых оснащены тормозом. Изготовлен из нержавеющей стали. Двойные стенки, крышка с газовым фиксатором, загрузочная корзина, полная термоизоляция, автоматический терморегулятор с термостатом 30-80°С, встроенная защита от перегрева.
+
+Регистрационное Удостоверение № ФСР 2010/07999 от 15 июня 2010 года.
+
+Применяется в сочетании с грязевыми аппликаторами, грязевыми термокомпрессами и лечебными грязями.
+<ul>
+<li>Напряжение – 220В</li>
+<li>Частота тока — 50Гц</li>
+<li>Потребляемая мощность-1,3 кВт.</li>
+<li>Габариты (ДxШxB) мм: 1100х500х920.</li>
+</ul>
+Артикул: FFF-001
+<p>Цена: договорная<p></span>
+ 
+
+<br><img src="https://ptsmed.ru/wp-content/uploads/2014/08/pts1-250x180.jpg"
+  alt="Применение" title="Применение">
+  <p><span>Мини-термокомпресс</span><p>
+    <span>Термокомпресс — многоразовый герметичный пакет с теплоносителем, передающий тепло грязевой аппликации. Применяется в сочетании с лечебными грязями и грязевым аппликатором.</span>
+
+<br><img src="https://ptsmed.ru/wp-content/uploads/2014/08/pts2-250x180.jpg"
+  alt="Применение" title="Применение">
+  <p><span>Одинарный термокомпресс</span><p>
+    <span>Термокомпресс — многоразовый герметичный пакет с теплоносителем, передающий тепло грязевой аппликации. Применяется в сочетании с лечебными грязями и грязевым аппликатором.</span>
+
+<br><img src="https://ptsmed.ru/wp-content/uploads/2014/08/pts3-250x180.jpg"
+  alt="Применение" title="Применение">
+  <p><span>Мини-термокомпресс</span><p>
+    <span>Термокомпресс — многоразовый герметичный пакет с теплоносителем, передающий тепло грязевой аппликации. Применяется в сочетании с лечебными грязями и грязевым аппликатором.</span>
+
+<br><img src="https://ptsmed.ru/wp-content/uploads/2014/08/applicator-250x180.jpg"
+  alt="Применение" title="Применение">
+  <p><span>Аппликатор грязевой</span><p>
+    <span>Термокомпресс — многоразовый герметичный пакет с теплоносителем, передающий тепло грязевой аппликации. Применяется в сочетании с лечебными грязями и грязевым аппликатором.</span>
+
+
+
+         </div>
       </div>
   </div>
 <aside>
@@ -93,26 +84,10 @@ for ($i = 0; $i < 8; $i++)
 
 <!-- курс -->
 <div id="course">
-<h2 class="heading">Описание процедуры</h2>
-  <div style="clear: both"><br></div>
-  <?php
-  for ($i = 0; $i < 2; $i++)
-    echo '
-  <div class="article">
-<img src="https://ptsmed.ru/wp-content/uploads/2014/08/ptsnew.jpg"
-  alt="Методы" title="Методы">
-  <span>Методы грязелечения</span>
-  <span><em>2 способ</em></span>
-</div>
-';
-?>
+
 <div style="clear: both"><br></div>
 
-<a href="" title="Узнать конкретнее о способах">
-            <div id="btn">
-                Все способы
-            </div>
-        </a>
+
 
 	</div>
  <div id="One_course">
@@ -124,85 +99,15 @@ for ($i = 0; $i < 8; $i++)
 
 <div style="clear: both"><br></div>
 
-        <div id="subscribe">
-        <span>Подпишитесь чтобы быть в курсе всех новостей</span>
-        <div style="clear: both"><br></div>
-
-
-
-
-
-<!-- Twitter -->
-
-<a class="twitter-timeline" data-width="350" data-height="400" href="https://twitter.com/dirt_body">Tweets by dirt_body</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
 </div>
-
-    <div id="sub_to_project">
-    <span class="heading">Оформить заказ</span>
-    <div style="clear: both"><br></div> 
-    <p>Узнать детальнее как вы можеть оформить заказ, можно просто нажав на кнопку Оформить заказ</p>
-    <a href="" title="Оформить заказ просто">
-            <div id="btn">
-                Оформить заказ
-            </div>
-        </a>
-       <div style="clear: both"><br></div> 
-       <h2 class="heading">Лечебная грязь</h2>
-       <div style="clear: both"><dr></div> 
-       <img src="img/tom.png" alt="Медецина" title="Грязь"> 
-  </div>
-
-<div style="clear: both"><br></div> 
-<div id="web_sites">
-<span>Хотите узнать более подробную информацию? свяжитесь с менеджерами.</span>
-             <a href="" title="Звязаться с офисом прадаж">
-            <div id="btn">
-                Связь
-            </div>
-        </a>
-</div>
-               <footer>
-               <div id="site_name">
-               <span>BodyDirt</span> - Грязелечение
-               </div>
-               <div id="clear"></div>
-               <div id="footer_menu">
-               <a href="" title="Узнать детальнее про рекламу">Реклама</a>
-               <a href="" title="О нас">О нас</a>
-               <a href="" title="Написать письмо">Обратная связь</a>
-               </div>
-               <div id="rights">
-               <a href="">Все права защищены  &copy; <?=date ('Y')?></a>
-               </div>
-               <div id="social">
-                   <a href="" title="Группа Вк"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                                      <a href="" title="Мы в Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                   <a href="" title="Мы в Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                   </div> 
-            </footer>
+                      <?php
+   require_once "blocks/footer.php"
+   ?>
             </div> 
             <!-- jQuery -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script>
-            	$('#menuShow').click (function () {
-		if ($('#mobileMenu').is(':visible'))
-			$('#mobileMenu').hide ();
-		else
-			$('#mobileMenu').show ();
-	});﻿
-
-            $(document).scroll (function () {
-            	if ($(document).width () > 785) {
-            	if ($(document).scrollTop () > $('header').height () + 10)
-            		$('nav').addClass ('fixed');
-            	else
-            		$('nav').removeClass ('fixed');
-            }
-            });
-
-            	window.onresize = function (event) {
-            	$('#mobileMenu').hide ();	
-            	};
-            </script>
+                               <?php
+   require_once "blocks/jQuery.php"
+   ?>
 </body>
 </html>
